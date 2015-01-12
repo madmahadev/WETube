@@ -1,0 +1,17 @@
+#main
+{
+    width: 600px;
+    height: 600px;
+    overflow: auto;
+    //border: 2px solid black;
+    //margin-left: 350px;
+
+}
+#maindiv
+{
+    width: 600px;
+    height: 70px;
+    //overflow: auto;
+   // border: 1px solid black;
+   padding-bottom: 10px;
+}

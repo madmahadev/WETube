@@ -1,0 +1,231 @@
+
+#block
+{
+    width:1030px;
+    height:50px;
+    margin-top: -130px;
+    margin-left: 270px;
+}
+
+.searchedvideo{
+    width:auto;
+    height: 60px;
+    overflow-x: auto;
+    margin-top: 20px;
+    background-image:url("images/icons/searchvideos.jpg");
+    background-repeat: repeat-x;
+    font-size: large;
+    margin-right: 60px;
+}
+.bdy
+{
+    //background-image: url(backimages/back.jpg);
+}
+.video a
+{
+    //color: black;
+}
+.video a:hover{
+
+    color: red;
+}
+.video{
+    //background-image:url("images/icons/video.jpg");
+    height: 70px;
+    background-size: cover;
+    font-style: normal;
+    //height: auto;
+// background-color: yellow;
+    overflow-x: auto;
+    overflow-y: auto;
+    border: 1px solid gray;
+}
+#heder
+{
+    width:auto;
+    background-color: #46c7eb;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+    margin-top: -10px;
+
+}
+#heder img
+{
+    width: 250px;
+    height: 60px;
+    margin-top: -25px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#heder img:hover
+{
+    width: 270px;
+    height: 65px;
+
+}
+#add
+{
+    background-color: #fffeb7;
+    width: auto;
+    height: 25px;
+    font-size: 20px;
+    font-family: "times new roman";
+    height: 30px;
+    //margin-right: 10px;
+
+}
+#add a:hover
+{
+
+
+
+}
+.search{
+    width: auto;
+    //position:relative ;
+    height: 30px;
+   margin-left: 270px;
+    margin-top: -700px;
+    padding-bottom: 10;
+
+}
+
+#subject
+{
+    margin-top: 10px;
+   width: 230px;
+    height: 700px;
+    font-size: 19px;
+    font-style:normal;
+
+    //border: 1px solid darkmagenta;
+}
+#subject a
+{
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+#vdlink
+{
+    float: right;
+    width: 230px;
+    height: 1000px;
+    //margin-top:10px ;
+    margin-top: -700px;
+    //border: 1px solid darkmagenta;
+}
+#vdlink a
+{
+    padding-left:5px;
+    margin-top: 10px;
+}
+#playboard
+{
+width: auto;
+height:auto;
+margin-left: 410px;
+    margin-top: 20px;
+//margin-top: -965px;
+}
+#playboard video
+{
+    width: 500px;
+    height:320px;
+   // border: 2px solid black;
+}
+
+
+.videolink
+{
+background-color: white;
+    text-align: left;
+    border: 1px solid black ;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+/*  //cse dept ccc
+*/
+
+  .navbar{
+      width: auto;
+      height: 25px;
+  //background-color: whitesmoke;
+      background-repeat: repeat-x;
+margin-top: -10px;
+  }
+#menubar li ul{
+    display:none;
+    position:absolute;
+    list-style:none;
+}
+#menubar li:hover ul{
+    display:block;
+    position: absolute;
+
+
+}
+#menubar li:hover ul li{
+
+    display:block;
+    text-align:left;
+
+}
+
+#menubar
+{
+
+    padding-left:500px;
+
+}
+#menu li{
+    margin-left: 5px;
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #8b8616;
+    border:2px solid  black;
+}
+
+#menu li:hover{
+    text-align: center;
+    text-decoration-color: #4be84e;
+    font-family: verdana;
+    border: 1px solid #c5181f;
+    background-color: papayawhip;
+   transition:all 2s ease;
+//display: block;
+
+
+}
+
+
+
+/* suggestion box..
+*/
+#suggestion
+{
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+  //background-color: none;
+    //overflow: auto;
+    margin-left: 270px;
+    margin-right: 320px;
+}
+#slider
+{
+    //width: 880px;
+    height: 00px;
+border: 1px solid gray;
+background-color: #0f1819;
+}
+.subjects
+{
+    height: auto;
+    margin-top: 10px;
+
+}

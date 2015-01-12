@@ -1,0 +1,106 @@
+#log
+{
+    margin-left: 200px;
+    padding-right:100px ;
+    text-align: left ;
+    width: 20px;
+}
+#a
+{
+    margin-left: 200px;
+}
+#message
+{
+    width: 600px;
+    height: 500px;
+    background-color: deeppink;
+    border: 1px solid black;
+    overflow: auto;
+    margin-left: 20px;
+
+
+}
+#messagediv
+{
+    width: 600px;
+    height: 50px;
+    border: 2px solid black;
+}
+#video
+{
+    width: 600px;
+    height: 500px;
+    background-color:deeppink;
+    border: 1px solid black;
+    overflow: auto;
+    margin-left: 700px;
+    margin-top: -519px;
+    margin-bottom: 30px;
+}
+#videodiv
+{
+    width: 600px;
+    height: 50px;
+    border: 2px solid black;
+}
+#subject
+{
+    width: 600px;
+    height: 500px;
+    background-color:deeppink;
+    border: 1px solid black;
+    overflow: auto;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+
+}
+#subjectdiv
+{
+    width: 600px;
+    height: 50px;
+    border: 2px solid #c5181f;
+
+}
+#advertisement
+{
+    width:600px;
+    height:500px;
+    background-color: deeppink;
+    border: 1px solid black;
+    overflow: auto;
+    margin-left: 700px;
+    margin-top:-540px;
+
+}
+#advertisementdiv
+{
+    width: 600px;
+    height: 50px;
+    border: 2px solid black;
+}
+#Notice
+{
+    width:600px;
+    height:500px;
+    background-color: deeppink;
+    border: 1px solid black;
+    overflow: auto;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+#Noticediv
+{
+    width: 600px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+#webpage
+{
+    border: 1px solid black;
+}
+
+
+

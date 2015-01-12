@@ -1,0 +1,15 @@
+#frmdiv{
+    font-family: arial, helvetica, sans-serif;
+   // font-size: 10px;
+    width: 500px;
+    padding-left: 20px;
+    background-color: peru;
+border: 1px solid darkgreen;
+}
+#submit
+{
+    margin-left: 50px;
+}
+#frmdiv *{
+    margin-top: 10px;
+}

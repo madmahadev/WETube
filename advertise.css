@@ -1,0 +1,20 @@
+
+#advertisement
+{
+    width: 600px;
+    height: 600px;
+    //border: 2px solid black;
+    //margin-left: 50px;
+}
+#advertisementdiv
+{
+    height: 70px;
+    width:600px;
+    //border: 1px solid black;
+}
+#advimage
+{
+    width: 400px;
+    height: 300px;
+    //border: 1px solid black;
+}

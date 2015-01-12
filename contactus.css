@@ -1,0 +1,21 @@
+#form
+{
+    background-color: rgba(255, 248, 235, 0.74);
+    width: 500px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+#form *{
+
+    margin-left: 15px;
+    margin-top:10px;
+}
+#submit_button{
+   // margin-left: 100px;
+
+}
+.body{
+
+    background-color: #8b8616;
+
+}

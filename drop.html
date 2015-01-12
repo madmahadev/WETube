@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+
+    <script type="text/javascript">
+        function loadsubjects()
+        {
+
+            var value=document.getElementById("selectdept").value;
+
+            if(window.XMLHttpRequest)
+            {
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {
+                xmlhttp=new ActiveXObject('Microsoft.XMLHTTP');
+            }
+            xmlhttp.onreadystatechange=function()
+            {
+                if(xmlhttp.readyState==4&&xmlhttp.status==200)
+                {
+                    // alert('alert');
+                    document.getElementById('divsubject').innerHTML=xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open('GET','loadsubjects.php?dept='+value,'true');
+            xmlhttp.send();
+
+        }
+
+    </script>
+</head>
+<body>
+<h3 style="margin-left: 20px"> Select Department</h3>
+
+<select name="dept" onchange="loadsubjects();"id="selectdept">
+    <option name="cse" value="">-select department-</option>
+
+    <option name="cse" value="cse">Computer Science And Engg.</option>
+    <option name="it" value="it">Information Technology</option>
+    <option name="mech" value="mech">Mehanical Engg.</option>
+    <option name="civil" value="mech">Civil Engg.</option>
+    <option name="lectronics" value="electronics">Electronice Engg.</option>
+    <option name="electrical" value="electrical">Electrical Engg.</option>
+</select>
+<div id="divsubject">
+
+</div>
+</body>
+
+</html>
